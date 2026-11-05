@@ -1,0 +1,8 @@
+# No subir configuración local ni secretos al deploy
+.mcp.json
+*.mcp.json
+.claude
+.env*
+!.env.local.example
+node_modules
+.next
